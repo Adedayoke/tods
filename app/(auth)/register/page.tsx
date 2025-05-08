@@ -15,7 +15,7 @@ export default function page() {
         <Input placeholder="Enter password" id="name" />
         <Input placeholder="Confirm password" id="name" />
       </div>
-      <Button href="/register">Register</Button>
+      <Button href="/dashboard">Register</Button>
       <Link href="/login" className="text-sm">
         Already have an account?{" "}
         <span className="text-primary-green">Sign in</span>

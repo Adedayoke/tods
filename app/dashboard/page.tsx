@@ -3,7 +3,7 @@ import DailyTask from "../_components/DailyTask";
 
 export default function page() {
   return (
-    <div>
+    <div className="min-h-[100dvh] h-[100dvh]">
       <div className="h-[30dvh] bg-primary-green flex items-center justify-end flex-col gap-3 py-3">
         <Image
           className="rounded-full"
@@ -24,8 +24,8 @@ export default function page() {
 
           <Image
             className="rounded-full"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             src="/clock.png"
             alt="clock"
           />
