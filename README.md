@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Internship Task Project 🚀
 
-## Getting Started
+This is a task-based project built with **Next.js** as part of an internship application assignment. The project demonstrates core frontend concepts such as routing, authentication, and UI design using templates, and includes functional components like a splash screen, user authentication, and a basic task dashboard.
 
-First, run the development server:
+---
+
+## 🔧 Technologies Used
+
+- **Next.js 15**
+- **React**
+- **Tailwind CSS** (for styling)
+- **Local state management**
+- **Responsive design**
+
+---
+
+## ✨ Features
+
+### ✅ Splash Screen
+- A simple animated splash screen shown on initial load.
+
+### 🔐 Authentication
+- **Login Page**: Accepts user credentials.
+- **Signup Page**: Registers new users.
+- (Note: Templates only, authentication is simulated and not connected to a backend.)
+
+### 📋 Task Dashboard
+- Add new tasks.
+- Mark tasks as complete using checkboxes.
+- Basic validation to check correctness.
+- Designed UI, but functionality is local and template-based.
+
+---
+
+
+
+## 🛠 How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Adedayoke/internship-task-project.git
+cd internship-task-project
+```
+2. Install Dependencies
+```bash
+npm install
+# or
+yarn
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
+## 📌 Notes
 
-## Learn More
+The authentication system is template-only and not connected to an actual API.
 
-To learn more about Next.js, take a look at the following resources:
+Task checking is done locally and will reset on reload.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app is primarily focused on frontend UI demonstration.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
