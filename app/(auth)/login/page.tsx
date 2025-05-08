@@ -17,7 +17,7 @@ export default function page() {
       <p className="text-primary-green text-center">Forgot password?</p>
       <Button href="/dashboard">Login</Button>
       <Link href="/register" className="text-sm">
-        Don't have an account?{" "}
+        Don{"'"}t have an account?{" "}
         <span className="text-primary-green">Sign up</span>
       </Link>
     </>
