@@ -39,8 +39,8 @@ This is a task-based project built with **Next.js** as part of an internship app
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Adedayoke/internship-task-project.git
-cd internship-task-project
+git clone https://github.com/Adedayoke/tods.git
+cd tods
 ```
 2. Install Dependencies
 ```bash
